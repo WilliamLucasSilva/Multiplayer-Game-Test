@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testeonlinegame</title>
+
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <header>
+      
+      <div style="width: 130px;">
+
+        <button id="login">
+          <span>Login</span>
+          <img src="./src/assets/google.svg" alt="google colored icon" style="height: 25px; width: 25px;">
+        </button>
+
+        <div id="loged">
+          <img id="profile" alt="user icon">
+          <button id="logout">
+          <span>Logout</span>
+          </button>
+        </div>
+        
+
+      </div>
+
+    </header>
+
+    <main>
+      <div>
+        <label for="roomName">Nome</label>
+        <input type="text" name="roomName" id="roomName">
+
+        <button id="roomForm">criar</button>
+        <button id="deleteRoom">deletar</button>
+        <button id="refresh">refresh</button>
+      </div>
+
+      <div id="publicRooms"></div>
+    </main>
+    
+    
+    <script type="module" src="/src/main.js"></script>
+    <script src="auth.js"></script>
+  </body>
+</html>

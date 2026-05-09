@@ -1,0 +1,51 @@
+:root{
+    --main-color: #a9dd9f;
+}
+
+header{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    
+    
+}
+
+#loged{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#logout{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: var(--main-color);
+}
+
+#profile{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#publicRooms{
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    overflow-y: auto;
+}
